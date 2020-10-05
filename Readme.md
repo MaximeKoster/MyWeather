@@ -11,3 +11,5 @@ Any crash might be caused by your gradle / jdk / jre version.
 The file "compte-rendu.pdf" will sum up in french the different steps of the making of this app.
 
 See the issue board for any known bugs
+
+Project made by koster_m and goix_a.
