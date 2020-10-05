@@ -8,4 +8,6 @@ Run the project with Android Studio :
 
 Any crash might be caused by your gradle version.
 
+The file "compte-rendu.pdf" will sum up in french the different steps of the making of this app.
+
 See the issue board for any known bugs
