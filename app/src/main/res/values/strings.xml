@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">What\'s the weather</string>
+    <string name="title_search">Rechercher</string>
+    <string name="title_weather">Details</string>
+    <string name="title_preferences">Preferences</string>
+    <string name="wind_speed_ms">%1$s m/s</string>
+    <string name="temp_celcius">%1$s °C</string>
+    <string name="min_max_celcius">%1$s - %2$s °C</string>
+    <string name="temp_far">%1$s °F</string>
+    <string name="min_max_far">%1$s - %2$s  °F</string>
+    <string name="pressure">%1$s hPa</string>
+    <string name="date">%1$sh | %2$s/%3$s</string>
+    <string name="humidity">%1$s%%</string>
+    <string name="wind_speed_ms_label">Vitesse du vent :</string>
+    <string name="temp_celcius_label">Temperature °C :</string>
+    <string name="temp_far_label">Temperature °F :</string>
+    <string name="pressure_label">Pression :"</string>
+    <string name="humidity_label">Humidité :</string>
+    <string name="recycler_view_image">Recycler view image</string>
+    <string name="delete_icon_description">Delete icon</string>
+    <string name="forecast_icon_description">Forecast icon</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="find_city">Chercher une ville</string>
+    <string name="favorite">Favoris</string>
+
+
+</resources>

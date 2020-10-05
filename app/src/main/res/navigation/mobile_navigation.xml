@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_preferences">
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.whatstheweather.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_weather"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"
+            app:destination="@id/navigation_weather" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_preferences"
+        android:name="com.example.whatstheweather.ui.preferences.PreferencesFragment"
+        android:label="@string/title_preferences"
+        tools:layout="@layout/fragment_preferences">
+        <action
+            android:id="@+id/action_navigation_preferences_to_navigation_weather"
+            app:destination="@id/navigation_weather"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"
+            app:popUpTo="@id/navigation_preferences" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_weather"
+        android:name="com.example.whatstheweather.ui.weather.WeatherFragment"
+        android:label="@string/title_weather"
+        tools:layout="@layout/fragment_weather">
+
+        <argument
+            android:name="cityName"
+            app:argType="string" />
+    </fragment>
+</navigation>
