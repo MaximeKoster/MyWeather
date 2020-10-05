@@ -6,7 +6,7 @@ Run the project with Android Studio :
 - Install a Virtual Device in Tools => AVD Manager or plug-in your device.
 - Hit run / Shift + F10
 
-Any crash might be caused by your gradle version.
+Any crash might be caused by your gradle / jdk / jre version.
 
 The file "compte-rendu.pdf" will sum up in french the different steps of the making of this app.
 
