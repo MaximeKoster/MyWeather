@@ -7,3 +7,5 @@ Run the project with Android Studio :
 - Hit run / Shift + F10
 
 Any crash might be caused by your gradle version.
+
+See the issue board for any known bugs
